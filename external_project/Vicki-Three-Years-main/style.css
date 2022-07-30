@@ -1,0 +1,347 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #110f0f;
+  overflow: hidden;
+}
+
+@keyframes palpitar {
+  0% {
+    transform: rotate(45deg) scale(1.2);
+  }
+  80% {
+    transform: rotate(45deg) scale(1.1);
+  }
+  100% {
+    transform: rotate(45deg) scale(1);
+  }
+}
+
+@keyframes palpitar2 {
+  0% {
+    transform: scale(1.1);
+  }
+  80% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.heart {
+  margin-top: 6em;
+  margin-left: -20em;
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  position: relative;
+  transform: rotate(45deg);
+  box-shadow: -20px 20px 150px red;
+  animation: palpitar 0.5s linear infinite alternate;
+}
+
+.heart::before {
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background: red;
+  right: 50%;
+  border-radius: 50%;
+  box-shadow: 20px 20px 150px red;
+}
+
+.heart::after {
+  content: "";
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background: red;
+  top: -71px;
+  border-radius: 50%;
+  box-shadow: 20px 20px 158px red;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+#neon_title {
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.4em;
+  color: rgb(241, 166, 166);
+  z-index: 999;
+  text-shadow: 0 0 20px #fa3444;
+  padding-bottom: 1em;
+  visibility: hidden;
+  /* box-shadow: 20px 20px 158px #df3464;  */
+}
+#neon_title:hover {
+  color: rgb(241, 166, 166);
+  text-shadow: 0 0 20px #c02121;
+}
+#boton_en_corazon {
+  margin-top: 1em;
+  position: absolute;
+  top: 36%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.8em;
+  color: red;
+  background-color: red;
+  border-style: none;
+  z-index: 9995;
+  border-radius: 50%;
+  text-shadow: 0 0 20px #fa3444;
+  padding-bottom: 1em;
+  animation: palpitar2 0.5s linear infinite alternate;
+
+  /* box-shadow: 20px 20px 158px #df3464;  */
+}
+#boton_en_corazon:hover {
+  color: rgb(20, 17, 17);
+  text-shadow: 0 0 20px #aa6969;
+}
+#slideup {
+  visibility: hidden;
+  z-index: 9999;
+  color: rgba(207, 15, 165, 0.61);
+  font-family: "Fascinate Inline", cursive;
+  text-shadow: 0px 0px 55px #5800fcdc;
+  position: absolute;
+  font-size: 4em;
+  top: 33%;
+  left: 35.8%;
+  letter-spacing: 3px;
+  animation: animate__animated animate__bounce;
+  animation-duration: 1s;
+}
+#slideup:hover {
+  color: rgba(236, 16, 218, 0.61);
+  text-shadow: 0px 0px 55px #006dac;
+  position: absolute;
+  font-size: 4.5em;
+  top: 30%;
+  left: 34.8%;
+  letter-spacing: 3px;
+  z-index: 99999;
+}
+
+#particles-js {
+  z-index: -1;
+}
+#image1 {
+  position: absolute;
+  background-color: aliceblue;
+  top: 20;
+  left: 1%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  width: 200px;
+  height: 150px;
+  visibility: hidden;
+}
+
+#img1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+ 
+}
+#image2 {
+  position: absolute;
+  background-color: aliceblue;
+  top: 20;
+  left: 77%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  width: 200px;
+  height: 150px;
+  visibility: hidden;
+}
+#img2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  
+}
+#arrow {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 83%;
+  left: 77%;
+}
+#arrows {
+  height: 100px;
+  width: 100px;
+}
+#reina {
+  position: absolute;
+  top: 20%;
+  left: 90%;
+  top: 77%;
+}
+
+#mireina {
+  position: absolute;
+
+  left: 80%;
+  top: 79%;
+
+  color: #3363e6;
+  text-shadow: 0px 0px 80px #6918b4;
+  font-family: "Cedarville Cursive", cursive;
+}
+
+#box {
+  position: absolute;
+  top: 80%;
+  left: 89%;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 25%;
+  background-color: aliceblue;
+}
+
+#box2 {
+  position: absolute;
+  top: 80%;
+  left: 0.2%;
+  width: 100px;
+  height: 100px;
+
+  border-radius: 25%;
+  background-color: aliceblue;
+}
+#imgn {
+  width: 100%;
+  height: 100%;
+  border-radius: 25%;
+}
+#imgn2 {
+  border-radius: 20%;
+}
+
+#arrows2 {
+  transform: scaleX(-1);
+  left: 50%;
+  margin-top: 22.8em;
+  margin-left: -36em;
+}
+
+#miDiosa {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  top: 80%;
+  color: #3363e6;
+  text-shadow: 0px 0px 80px #6918b4;
+  font-family: "Cedarville Cursive", cursive;
+}
+
+#ocultar {
+  display: block;
+  visibility: hidden;
+}
+#vegetta {
+  position: absolute;
+  width: 180px;
+  height: 150px;
+  z-index: 9999;
+  top: 20%;
+  left: 8%;
+  opacity: 0.85;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+}
+
+#sexo {
+    border-radius: 15%;
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  z-index: 9999;
+  top: 70%;
+  left: 90%;
+  opacity: 0.85;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  
+}
+
+#monacontainer {
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 20%;
+   left: 80%;
+   visibility: hidden;
+}
+
+#chika{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    margin-left: -55em;
+    margin-top: -4em;
+    
+}
+#mona {
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  margin-bottom: 8em;
+    
+  transform: translate(-50%, -50%);
+}
+
+
+#bailes{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    top: 80%;
+    left: 90%;
+    opacity: 0.85;
+    transform: translate(-50%, -50%);
+    justify-content: space-around;
+    z-index: 99999;
+    visibility: hidden;
+}
+
+#cuerpo{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 80%;
+    left: -290%;
+    opacity: 0.85;
+    transform: translate(-50%, -50%);
+   
+
+}
+
+#snoop{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+left:10%;
+   
+
+}
