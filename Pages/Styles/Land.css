@@ -1,0 +1,342 @@
+.navbar {
+    background-image: linear-gradient(to right top, #845EC2, #e09ff8);
+
+    margin-top: -6em;
+
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: #333 !important;
+    position: fixed;
+    z-index: 30;
+
+
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.navbar-brand:hover {
+    color: #c58c8c !important;
+}
+
+.nav-item {
+    padding: 0.6em;
+    font-size: 1.2em;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+
+}
+
+.nav-link:hover {
+    color: #d64b4b !important;
+}
+
+.cont2 {
+    margin-top: 15%;
+
+}
+
+body {
+    background-image: linear-gradient(to bottom, #e0c4fd, #c8bcfd, #abb5fc, #89affa, #5ca9f5);
+    overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(191, 245, 218, 0.623);
+    border-radius: 20px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:  #8995ecb9
+  }
+.carousel {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 22%;
+    left: 5%;
+    border-radius: 20% !important;
+}
+
+.container1 {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+
+}
+
+.form-check {
+
+    position: absolute;
+    top: 104%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel h6 {
+    font-weight: bold;
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 8;
+    font-size: 28px;
+    background: linear-gradient(to right, #cfbe23, #d9623e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.carousel img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-indicators {
+    position: absolute;
+    top: 35%;
+
+    left: 34%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+
+.cont3 {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    border-color: blueviolet;
+}
+
+#title {
+    color: rgb(0, 0, 0);
+    font-size: 2.3em;
+    color: rgb(20, 17, 17);
+    text-shadow: 1px 1px 1px #000;
+    margin-left: 35% !important;
+    margin-top: 1% !important;
+    padding-bottom: 3% !important;
+}
+
+#ubicacion {
+    color: rgb(0, 0, 0);
+    font-size: 2.3em;
+    color: rgb(20, 17, 17);
+    text-shadow: 1px 1px 1px #000;
+    margin-left: 35% !important;
+    margin-top: 10vh;
+
+
+}
+
+#dinero {
+    color: rgb(0, 0, 0);
+    font-size: 2.3em;
+    color: rgb(20, 17, 17);
+    text-shadow: 1px 1px 1px #000;
+    margin-top: 3em;
+    margin-left: 35% !important;
+}
+
+
+select {
+
+
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+
+
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.round {
+    background-image:
+        linear-gradient(45deg, transparent 50%, gray 50%),
+        linear-gradient(135deg, gray 50%, transparent 50%),
+        radial-gradient(#ddd 70%, transparent 72%);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - .5em) .5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1.5em 1.5em;
+    background-repeat: no-repeat;
+}
+.carousel-inner {
+    border-radius: 8px;
+    border: 1px solid rgb(152, 78, 175);
+    box-shadow: 50px 50px 158px -20px rgba(0, 0, 0, 0.705);
+}
+select.round:focus {
+    background-image:
+        linear-gradient(45deg, white 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, white 50%),
+        radial-gradient(gray 70%, transparent 72%);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - .5em) .5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1.5em 1.5em;
+    background-repeat: no-repeat;
+    border-color: rgb(113, 0, 128);
+    outline: 0;
+    cursor: pointer;
+}
+
+select.round:hover {
+    background-color: #bdadd8;
+}
+
+
+
+#monay {
+    text-align: center;
+}
+
+/*codigo robado*/
+/* CSS */
+.button-64 {
+    align-items: center;
+    background-image: linear-gradient(to right top, #274e6b, #135894, #355cba, #7257d5, #b640e1);
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 2em;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.button-64:active,
+.button-64:hover {
+    outline: 0;
+}
+
+.button-64 span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+}
+
+.button-64:hover span {
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .button-64 {
+        font-size: 24px;
+        min-width: 196px;
+    }
+}
+
+
+
+
+
+
+
+.mydiv {
+    position: relative;
+
+    width: 100%;
+    height: 80px;
+}
+
+.animate-bg:before,
+.animate-bg:after {
+    content: '';
+    position: absolute;
+    left: -8px;
+    top: -38px;
+    background: linear-gradient(120deg, #79fb00, #8d01a0, #031ba5, #ff004c,
+            #e6036d, #fb0094, #ff6600, #04c2e4, #adad02, #00c3ff);
+    background-size: 300%;
+    width: calc(100% + 16px);
+    height: calc(100% + 16px);
+    z-index: 6;
+    animation: BGgradient 8s ease infinite;
+}
+
+@keyframes BGgradient {
+    0% {
+        background-position: 0% 200%;
+    }
+
+    50% {
+        background-position: 200% 0%;
+    }
+
+    100% {
+        background-position: 0% 330%;
+    }
+}
+
+.animate-bg:after {
+    filter: brightness(1.4);
+    filter: drop-shadow(16px 16px 20px rgb(248, 220, 97));
+    filter: blur(15px);
+}
+
+/* fin codigo robado*/
+
+#alert{
+    text-align: center;
+    display: none;
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    width: 30%;
+    background-color: #d8482e79;
+}
